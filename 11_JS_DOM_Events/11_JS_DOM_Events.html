@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS DOM Events</title>
+
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<nav>
+    <a href="#">JS DOM Events</a>
+</nav>
+
+<!-- Display Wish Message -->
+<section>
+    <h2 id="msg"></h2>
+    <button onclick="changeText('Good Morning','green')">Good Morning</button>
+    <button onclick="changeText('Good Afternoon','orangered')">Good Afternoon</button>
+    <button onclick="changeText('Good Evening','blue')">Good Evening</button>
+    <button onclick="changeText('Good Night','purple')">Good Night</button>
+</section>
+
+
+<!-- Display Wish Message with Event Listeners -->
+<section>
+    <h2 id="display"></h2>
+    <button id="gm">Good Morning</button>
+    <button id="ga">Good Afternoon</button>
+    <button id="ge">Good Evening</button>
+    <button id="gn">Good Night</button>
+</section>
+
+<!-- Change Image -->
+<section>
+    <div>
+        <img src="../img/image7.jpeg" id="image">
+    </div>
+    <button onclick="changeImage('image1.jpg')">Image 1</button>
+    <button onclick="changeImage('image2.jpg')">Image 2</button>
+    <button onclick="changeImage('image3.jpeg')">Image 3</button>
+    <button onclick="changeImage('image4.jpeg')">Image 4</button>
+    <button onclick="changeImage('image5.jpeg')">Image 5</button>
+    <button onclick="changeImage('image6.jpeg')">Image 6</button>
+</section>
+
+<script src="11_script.js"></script>
+</body>
+</html>

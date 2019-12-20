@@ -1,0 +1,16 @@
+section{
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+button{
+    font-size: 20px;
+    padding: 14px 25px;
+}
+img{
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
